@@ -1,3 +1,11 @@
+---
+layout: post
+comments: true
+share: true
+title: Git Branch From Stash
+tag: git
+---
+
 I often save unfinished work in a stash and later want to create a new branch from it.  I used to create a branch and apply the stash until I stumbled upon this great shortcut:
 
     git stash branch \<branchname> [\<stash>]
